@@ -28,19 +28,16 @@
  - Gallery
  - - Harvest **current_year** Gallery (only current year, previous years would be archived)
  - - Juvenile harvest **current_year** Gallery (same as above)
- - - Sunday Programs Gallery
- - - Event Gallery
 
  - About us
  - - Summary about the church and history
  - - Meet the Shepard
  - - Mission and Vision Statement - what we believe in
- - - Different positions (choir, media team, sidemen/sidewomen) - might we have separate pages for these?
-
- - Contact us
  - - Phone Number
- - - Address **map**
+ - - address just dublin 15
  - - Social media handles (it will be in footer as well)
+
+ - Other Parishes from other counties
 
  - Doctrines
  - - tenets
