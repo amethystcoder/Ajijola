@@ -68,6 +68,8 @@ a {
     padding: 10px;
     border-bottom: solid 2px #efbf04;
 }
+/*sections*/
+.two-grid{}
 @media only screen and (max-width: 600px) {
     nav ul li a{
         display: none;
