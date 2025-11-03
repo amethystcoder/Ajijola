@@ -55,6 +55,9 @@ header {
     color: white;
 }
 
+/* Social feed */
+.social-feed{}
+
 /* Reach Out Section */
 .reach-out{
     display: flex;
