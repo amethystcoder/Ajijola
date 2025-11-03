@@ -20,3 +20,66 @@ header {
     font-size: 3rem;
     margin: 0;
 }
+
+/* Vision Statement Section */
+.vision-statement{
+    display: flex;
+    padding: 20px;
+    justify-content: space-evenly;
+}
+.vs-text{
+    max-width: 40%;
+    padding: 10px;
+    margin: 10px;
+}
+
+/* Attribution text */
+.attribution-line-top{
+    width: 40px;
+    height: 4px;
+    border: hidden;
+    border-radius: 10px;
+    background-color: white;
+}
+.attribution-text{
+    font-size: 5rem;
+    margin: 0;
+}
+/* Programs Section */
+.programs{
+    background: url(/assets/church-vision-img.webp);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+.programs > *{
+    color: white;
+}
+
+/* Reach Out Section */
+.reach-out{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.reach-out-cont{
+    display: flex;
+    border: hidden;
+    border-radius: 20px;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    flex-wrap: wrap;
+}
+.reach-out-img{
+    width: 50%;
+    background-image: url(/assets/reach-out-one.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+    height: 500px;
+
+}
+.reach-out-text{
+    max-width: 45%;
+    padding: 10px;
+}

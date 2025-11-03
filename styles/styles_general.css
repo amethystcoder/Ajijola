@@ -71,6 +71,24 @@ a {
     border-bottom: solid 2px #efbf04;
 }
 
+section {
+    padding: 20px;
+}
+
+/* our link style */
+.spec-link{
+    border-bottom: #efbf04 solid 3px;
+    display: flex;
+    justify-content: center;
+    width: max-content;
+}
+.spec-link::after{
+    content: url(/assets/arrow-forward.svg);
+}
+.spec-link:hover{
+    padding: 3px;
+}
+
 /* Footer */
 footer{
     margin: 10px;
@@ -92,6 +110,27 @@ footer{
     display: flex;
     justify-content: space-evenly;
     flex-wrap: wrap;
+}
+.logo-cont{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+/* animation line under text */
+.anim-line{
+    background-color: #efbf04;
+    height: 10px;
+    animation: widen 1s ease-in forwards;
+}
+@keyframes widen{
+    from{
+        width: 0;
+    }
+    to{
+        width: 100%;
+    }
 }
 
 @media only screen and (max-width: 600px) {
