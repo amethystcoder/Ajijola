@@ -1,0 +1,21 @@
+header {
+    display: flex;
+    background-color: #efbf04;
+    height: 90vh;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+.header-text-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 50%;
+}
+.header-img-cont{
+    width: 60%;
+}
+#header-heading{
+    font-size: 3rem;
+    margin: 0;
+}

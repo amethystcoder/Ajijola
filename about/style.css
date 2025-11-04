@@ -1,0 +1,27 @@
+header {
+    display: flex;
+    /* background-color: #efbf04; */
+    background-image: linear-gradient(to bottom, #00000013, #000000), url(../assets/cross.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 90vh;
+    border-radius: 30px;
+    padding: 10px;
+    margin: 20px;
+}
+.header-text-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 50%;
+}
+.header-text-cont > p, .header-text-cont > h1{
+    color: white;
+}
+.header-img-cont{
+    width: 60%;
+}
+#header-heading{
+    font-size: 3rem;
+    margin: 0;
+}

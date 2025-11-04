@@ -6,8 +6,10 @@
         <link rel="shortcut icon" href="../assets/logo.ico" type="image/x-icon">
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-        <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200..1000;1,200..1000&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../styles/styles_general.css">
+        <link rel="stylesheet" href="style.css">
+        <script src="./changeImage.js"></script>
         <title>Gallery</title>
     </head>
     <body>
@@ -74,6 +76,37 @@
                 </li>
             </ul>
         </nav>
+
+        <header id="gallery-img-cont">
+            <div class="header-text-cont">
+                <span>
+                    <img src="/assets/logo.png" alt="CCC Ajijola-Jesu Logo" width="150" height="80">
+                </span>
+                <h1 id="header-heading">Highlights from Last Year's Harvest</h1>
+            </div>
+            <div class="header-img-cont"></div>
+            
+            <div id="arrow-container">
+                <span id="arrow-front" onclick="moveBackward()">
+                    <svg id="arrow-front-svg" width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <g clip-path="url(#clip0_429_11257)">
+                            <path d="M14 7L9 12" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                            <path d="M9 12L14 17" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                        </g>
+                        <defs>
+                            <clipPath id="clip0_429_11257">
+                                <rect width="24" height="24" fill="white"/>
+                            </clipPath>
+                        </defs>
+                    </svg>
+                </span>
+                <span id="arrow-back" onclick="moveForward()">
+                    <svg id="arrow-back-svg" width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 7L15 12L10 17" stroke="#ffffff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            </div>
+        </header>
 
         <footer>
             <div class="social-tags">

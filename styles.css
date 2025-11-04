@@ -56,7 +56,16 @@ header {
 }
 
 /* Social feed */
-.social-feed{}
+.social-feed{
+    width: 100%;
+    height: 60vh;
+    background-color: #efc00417;
+    border: hidden;
+    border-radius: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
 /* Reach Out Section */
 .reach-out{

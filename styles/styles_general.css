@@ -117,6 +117,9 @@ footer{
     align-items: center;
     justify-content: center;
 }
+.large-emp{
+    font-size: 4.5rem;
+}
 
 /* animation line under text */
 .anim-line{
