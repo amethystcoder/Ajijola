@@ -25,3 +25,227 @@ header {
     font-size: 3rem;
     margin: 0;
 }
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+/* Hero Section */
+.hero-section {
+  position: relative;
+  background: url('images/hero-bg.jpg') center/cover no-repeat;
+  color: #fff;
+  text-align: center;
+  padding: 120px 20px;
+}
+
+.hero-overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 40, 90, 0.6);
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+}
+
+.hero-content h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+}
+
+.hero-content p {
+  font-size: 1.2rem;
+  color: #f1f1f1;
+}
+
+/* Our Story Section */
+.about-story {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  gap: 40px;
+  padding: 80px 0;
+}
+
+.about-story .about-text {
+  flex: 1 1 500px;
+}
+
+.about-story .about-image {
+  flex: 1 1 400px;
+}
+
+.about-story img {
+  width: 100%;
+  border-radius: 12px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+/* Mission & Vision */
+.mission-vision {
+  background-color: #f4f8ff;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.mission-vision h2 {
+  color: #0057b7;
+}
+
+.mission, .vision {
+  margin: 20px 0;
+}
+
+.mission p, .vision p {
+  max-width: 800px;
+  margin: 10px auto;
+  font-size: 1.1rem;
+}
+
+/* Core Beliefs */
+.core-beliefs {
+  padding: 80px 0;
+}
+
+.core-beliefs h2 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.core-beliefs ul {
+  list-style: none;
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 0;
+}
+
+.core-beliefs li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 15px;
+}
+
+.core-beliefs li::before {
+  content: '✦';
+  position: absolute;
+  left: 0;
+  color: #d4af37;
+}
+
+/* Leadership Section */
+.leadership {
+  background-color: #f4f4f4;
+  padding: 80px 0;
+  text-align: center;
+}
+
+.leadership h2 {
+  margin-bottom: 40px;
+}
+
+.leaders-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 30px;
+}
+
+.leader-card {
+  background-color: #fff;
+  border-radius: 12px;
+  padding: 20px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+.leader-card:hover {
+  transform: translateY(-6px);
+  box-shadow: 0 8px 20px rgba(0,0,0,0.15);
+}
+
+.leader-card img {
+  width: 100%;
+  border-radius: 10px;
+  margin-bottom: 15px;
+}
+
+.leader-card h3 {
+  color: #0057b7;
+  margin-bottom: 5px;
+}
+
+.leader-card p {
+  color: #555;
+}
+
+/* Call to Worship */
+.call-to-worship {
+  background-color: #0057b7;
+  color: #fff;
+  text-align: center;
+  padding: 80px 20px;
+}
+
+.call-to-worship h2 {
+  color: #fff;
+  margin-bottom: 15px;
+}
+
+.call-to-worship p {
+  max-width: 700px;
+  margin: 0 auto 30px;
+}
+
+.call-to-worship .btn {
+  display: inline-block;
+  background-color: #d4af37;
+  color: #fff;
+  padding: 12px 30px;
+  border-radius: 25px;
+  font-weight: 500;
+  text-decoration: none;
+  transition: background-color 0.3s ease;
+}
+
+.call-to-worship .btn:hover {
+  background-color: #b9962f;
+}
+
+/* Responsive */
+@media (max-width: 768px) {
+  .about-story {
+    flex-direction: column;
+  }
+
+  .hero-content h1 {
+    font-size: 2.2rem;
+  }
+}
+
+
+/* 
+@scroll-timeline aboutScroll {
+  source: auto;
+  orientation: block;
+}
+
+ Fade + Slide on Scroll 
+section {
+  opacity: 0;
+  transform: translateY(40px);
+  animation: fadeSlide 1s ease-out forwards;
+  animation-timeline: aboutScroll;
+  animation-range: entry 0% cover 40%;
+}
+
+@keyframes fadeSlide {
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+} */

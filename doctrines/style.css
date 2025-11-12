@@ -24,3 +24,70 @@ header {
     font-size: 3rem;
     margin: 0;
 }
+
+/* Doctrines Section Styles */
+.d-intro, .doctrines-intro {
+  padding: 60px 0;
+  text-align: center;
+}
+.doctrines-intro h2 {
+  font-size: 2.6rem;
+  color: #0057b7;
+  margin-bottom: 15px;
+}
+.doctrines-intro p {
+  max-width: 800px;
+  margin: 0 auto;
+  font-size: 1.1rem;
+  color: #444;
+}
+
+.d-doctrine, .doctrine {
+  padding: 50px 0;
+  border-bottom: 1px solid #eee;
+}
+.doctrine:last-of-type {
+  border-bottom: none;
+}
+.doctrine h3 {
+  font-size: 2rem;
+  color: #0057b7;
+  margin-bottom: 12px;
+}
+.doctrine p {
+  font-size: 1.05rem;
+  color: #555;
+  max-width: 850px;
+  margin: 0 auto 20px;
+}
+.doctrine-tenets ul {
+  list-style: none;
+  max-width: 650px;
+  margin: 0 auto;
+  padding: 0;
+}
+.doctrine-tenets li {
+  position: relative;
+  padding-left: 25px;
+  margin-bottom: 10px;
+  color: #333;
+}
+.doctrine-tenets li::before {
+  content: "✔";
+  position: absolute;
+  left: 0;
+  color: #d4af37;
+}
+
+/* Responsive tweaks */
+@media (max-width: 768px) {
+  .doctrines-intro h2 {
+    font-size: 2rem;
+  }
+  .doctrine h3 {
+    font-size: 1.6rem;
+  }
+  .doctrine p, .doctrine-tenets li {
+    font-size: 1rem;
+  }
+}
