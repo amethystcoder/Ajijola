@@ -191,4 +191,27 @@ header {
     .vision-statement{
         flex-direction: column;
     }
+    .vision-statement > .vs-text {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .vision-statement > div > img {
+        width: 100%;
+    }
 }
+
+@media only screen and (max-width: 800px)  {
+    .vision-statement{
+        flex-direction: column;
+    }
+    .vision-statement > .vs-text {
+        width: 100%;
+        max-width: 100%;
+        box-sizing: border-box;
+    }
+    .vision-statement > div > img {
+        width: 100%;
+    }
+}
+
