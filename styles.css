@@ -79,11 +79,12 @@ header {
 }
 
 .programs-list {
-    display: flex;
-    position: relative;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
     width: 100%;
-    justify-content: space-evenly;
     box-sizing: border-box;
+    padding: 0;
 }
 
 .turnable-box {
@@ -93,16 +94,15 @@ header {
 }
 
 .program-img {
-    width: calc(100% + 50px);
+    display: flex;
+    flex-direction: column-reverse;
     height: 400px;
     background-color: rgb(60, 60, 75);
-    border-radius: 20px;
     background-repeat: no-repeat;
     background-size: cover;
-    margin-bottom: 10px;
+    border: solid white 2px;
 }
 .program-item-cont{
-    width: calc(100% / 5);
     box-sizing: border-box;
 }
 /* .program-img:hover{
