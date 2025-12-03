@@ -72,7 +72,7 @@ header {
 }
 /* Programs Section */
 .section-heading{
-    font-size: 3rem;
+    font-size: 5rem;
 }
 .programs{
     background-color: #e2b70da6;
@@ -210,6 +210,9 @@ header {
         height: max-content;
         padding-top: 90px;
     }
+    .section-heading{
+    font-size: 3rem;
+}
     .header-text-cont{
         max-width: 100%;
         width: 100%;
