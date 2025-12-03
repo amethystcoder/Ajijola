@@ -174,7 +174,7 @@ header {
 }
 .reach-out-img{
     width: 50%;
-    background-image: url(/assets/reach-out-one.jpg);
+    background-image: url(./assets/reach-out-one.jpg);
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
@@ -198,6 +198,17 @@ header {
     }
     .vision-statement > div > img {
         width: 100%;
+    }
+    .reach-out-cont{
+        flex-direction: column;
+    }
+    .reach-out-img{
+        width: 100%;
+        border-top-right-radius: 20px;
+        border-bottom-left-radius: 0px;
+    }
+    .reach-out-text{
+        max-width: 100%;
     }
 }
 
