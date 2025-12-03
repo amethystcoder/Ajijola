@@ -48,7 +48,7 @@ header {
     background-color: rgb(0, 0, 0);
 }
 .attribution-clip{
-    font-size: 10rem;
+    font-size: 20vw;
 }
 .main-attribution-cont{
     display: flex;
@@ -66,7 +66,7 @@ header {
     align-items:first baseline;
 }
 .attribution-text{
-    font-size: 8rem;
+    font-size: 12vw;
     font-weight: 500;
     margin: 0;
 }
@@ -201,16 +201,17 @@ header {
     }
 }
 
-@media only screen and (max-width: 800px)  {
-    .vision-statement{
-        flex-direction: column;
+@media only screen and (max-width: 980px)  {
+    header {
+        background-image: url(./assets/crossimg.png);
+        background-repeat: no-repeat;
+        background-position: bottom 0% right 100%;
+        flex-direction: column-reverse;
+        height: max-content;
+        padding-top: 90px;
     }
-    .vision-statement > .vs-text {
-        width: 100%;
+    .header-text-cont{
         max-width: 100%;
-        box-sizing: border-box;
-    }
-    .vision-statement > div > img {
         width: 100%;
     }
 }
