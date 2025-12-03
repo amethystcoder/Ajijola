@@ -29,5 +29,10 @@ window.addEventListener("DOMContentLoaded",async ()=>{
         console.error("Error fetching social media embeds:", error);
         SocialFeed.innerHTML = "No posts yet";
     }
+
+    // Important: re-run Instagram embedding
+    if (window.instgrm && window.instgrm.Embeds && window.instgrm.Embeds.process) {
+        window.instgrm.Embeds.process();
+    }
     
 });
