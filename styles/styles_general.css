@@ -148,6 +148,7 @@ footer{
 }
 
 @media only screen and (max-width: 980px)  {
+    /* add in new styling later */
     header {
         flex-direction: column-reverse;
         height: max-content;
