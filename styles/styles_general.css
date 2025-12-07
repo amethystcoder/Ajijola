@@ -72,6 +72,12 @@ a {
     padding: 10px;
     border-bottom: solid 2px #efbf04;
 }
+.header-text-cont{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    max-width: 50%;
+}
 
 section {
     padding: 20px;
