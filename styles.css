@@ -111,6 +111,8 @@ header {
     text-align: center;
     padding: 4rem 2rem;
     border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .prayer h1 {
