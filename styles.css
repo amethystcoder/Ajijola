@@ -106,7 +106,7 @@ header {
 
 /* Prayer Section */
 .prayer {
-    background: linear-gradient(to right, #0f2027, #203a43, #2c5364);
+    background-image: linear-gradient(to right, #0f202781, #203a439a), url(./assets/prayer.jpg);
     color: #fff;
     text-align: center;
     padding: 4rem 2rem;

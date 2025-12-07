@@ -155,12 +155,12 @@ footer{
 
 @media only screen and (max-width: 980px)  {
     header {
-        flex-direction: column-reverse;
-        height: max-content;
-        padding-top: 90px;
+        flex-direction: column-reverse !important;
+        height: max-content !important;
+        padding-top: 90px !important;
     }
     .section-heading{
-    font-size: 3rem;
+    font-size: 3rem !important;
 }
     .header-text-cont{
         max-width: 100%;
