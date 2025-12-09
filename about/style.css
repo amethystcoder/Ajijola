@@ -135,29 +135,14 @@ header {
 
 .shepherd-section {
   position: relative;
-  width: 100%;
   height: 520px;
   overflow: hidden;
   border-radius: 12px;
-  font-family: "Inter", sans-serif;
-}
-
-.shepherd-background img {
-  width: 100%;
-  height: 100%;
-  object-fit: cover;
-  filter: brightness(60%);
-  position: absolute;
-  inset: 0;
+  background: linear-gradient(to bottom, #024e6113, #03235fcb), url('../assets/shepherd.jpeg') center/cover no-repeat;
 }
 
 .shepherd-content {
-  position: absolute;
-  bottom: 40px;
-  left: 40px;
-  right: 40px;
   color: white;
-  z-index: 2;
 }
 
 .shepherd-content h2 {
