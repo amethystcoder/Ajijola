@@ -70,7 +70,10 @@ function incrementProgramDisplay() {
     document.getElementById('program-image').style.backgroundImage = `url(${program.imageUrl})`;
     document.getElementById('program-image').style.backgroundColor = program.forgroundColor;
     document.getElementById('program-card').style.backgroundColor = program.themeColor;
-    document.getElementById('join-button').style.backgroundColor = program.othercolor;
+    document.getElementById('join-button').style.backgroundColor = program.themeColor;
+    document.getElementById('join-button').onmouseover((ev)=>{
+        ev.target.style.color = program.themeColor;
+    }) = program.othercolor;
     //sliding animation
     const programCard = document.getElementById('program-card');
     programCard.classList.remove('slide-in');
