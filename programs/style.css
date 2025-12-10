@@ -57,6 +57,9 @@ header {
 .slide-in {
     animation: slideIn 1s ease-out;
 }
+.watch-links{
+    display: flex;
+}
 
 /* Prayer Section */
 .prayer {
