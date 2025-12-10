@@ -41,14 +41,18 @@ header {
     border-radius: 20px;
 }
 .join-button{
-    background-color: #000000;
     color: #ffffff;
     padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
+    border: solid white 2px;
+    border-radius: 15px;
     cursor: pointer;
     font-weight: bold;
     text-decoration: none;
+    font-size: 2rem;
+}
+.join-button:hover{
+    background-color: white;
+    color: black;
 }
 .slide-in {
     animation: slideIn 1s ease-out;
