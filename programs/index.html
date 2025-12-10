@@ -9,6 +9,7 @@
         <link href="https://fonts.googleapis.com/css2?family=Parkinsans:wght@300..800&display=swap" rel="stylesheet">
         <link rel="stylesheet" href="../styles/styles_general.css">
         <link rel="stylesheet" href="style.css">
+        <script src="programsDisplay.js"></script>
         <title>Programs</title>
     </head>
     <body>
@@ -89,11 +90,59 @@
                 <span>
                     <img src="../assets/logo.png" alt="CCC Ajijola-Jesu Logo" width="150" height="80">
                 </span>
-                <h1 id="header-heading">About Ajijola-Jesu</h1>
-                <p>Celestial Church of Christ, Ajijola-Jesu Parish, is a vibrant worship community within the global Celestial Church of Christ family. Our parish serves as a beacon of light, faith, and hope to all who seek to experience God's divine presence and guidance.</p>
+                <h1 id="header-heading">Our Programs and Activities</h1>
             </div>
             <div class="header-img-cont"></div>
         </header>
+
+        <section>
+            <div class="switch-container">
+                <span class="backward" onclick="decrementProgramDisplay()">
+                    <svg width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M10 7L15 12L10 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+                <span class="forward" onclick="incrementProgramDisplay()">
+                    <svg width="80px" height="80px" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+                        <path d="M14 7L9 12L14 17" stroke="#000000" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </span>
+            </div>
+        </section>
+
+        <section class="programs-display" id="program-card">
+                <!-- Programs will be displayed here dynamically -->
+                 <div class="top-program-card">
+                    <div class="program-image" id="program-image"></div>
+                    <div class="top-program-details">
+                        <h1 id="program-title">Sunday Worship Service</h1>
+                        <p id="program-description">Join us every Sunday for a spiritually uplifting worship service filled with praise, worship, and the word of God.</p>
+                    </div>
+                 </div>
+                 <div class="more-details-card">
+                    <h2>Time:</h2>
+                    <p id="program-time">11:00 AM - 12:00 PM</p>
+                    <h2>What to bring along</h2>
+                    <p id="program-bring-along">Family and Friends</p>
+                 </div>
+                 <button onclick="joinProgram()" class="join-button" id="join-button">How to Join</button>
+        </section>
+
+        <section class="prayer">
+            <h1>Join Us for Wednesday Prayer Night</h1>
+            <p>Come together in faith as we seek God's presence, lift our prayers, and grow in His Word. Whether near or far, you’re invited to connect with us online and be part of a powerful time of worship and intercession.</p>
+            <a href="https://meet.google.com/spr-fgzw-xap" class="prayer-btn" target="_blank" rel="noopener noreferrer">
+                Join Prayer Meeting
+            </a>
+        </section>
+
+        <section class="christmas-carol" id="christmas-carol-section" style="display: none;">
+            <h1 id="christmas-carol-title">Christmas Carol Service - December 24th, 2024</h1>
+            <p>Celebrate the joy of Christmas with us at our annual Christmas Carol Service! Join us for an evening filled with festive music, heartfelt worship, and the true spirit of the season. Bring your family and friends to share in this special time of celebration and community.</p>
+            <a href="../events/christmas-carol.html" class="carol-btn">
+                Learn More
+            </a>
+        </section>
 
         <footer>
             <div class="social-tags">

@@ -13,3 +13,92 @@ header {
     font-size: 3rem;
     margin: 0;
 }
+.switch-container{
+    display: flex;
+    flex-direction: row-reverse;
+}
+.programs-display{
+    margin: 10px;
+    border: hidden;
+    border-radius: 20px;
+    padding: 20px;
+}
+#program-title{
+    font-size: 4rem;
+    margin-bottom: 10px;
+}
+.top-program-card{
+    display: flex;
+    justify-content: space-around;
+    height: max-content;
+}
+.program-image{
+    padding: 30px;
+    width: 40%;
+    margin: 10px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 20px;
+}
+.join-button{
+    background-color: #000000;
+    color: #ffffff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: bold;
+    text-decoration: none;
+}
+.slide-in {
+    animation: slideIn 1s ease-out;
+}
+
+/* Prayer Section */
+.prayer {
+    background-image: linear-gradient(to right, #0f202781, #203a439a), url(../assets/prayer.jpg);
+    color: #fff;
+    text-align: center;
+    padding: 4rem 2rem;
+    border-radius: 10px;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.prayer h1 {
+    font-size: 2.2rem;
+    margin-bottom: 1rem;
+    font-weight: 700;
+}
+
+.prayer p {
+    font-size: 1.1rem;
+    max-width: 600px;
+    margin: 0 auto 2rem;
+    line-height: 1.6;
+}
+
+.prayer-btn {
+    display: inline-block;
+    background-color: #f1c40f;
+    color: #000;
+    padding: 0.9rem 2rem;
+    border-radius: 5px;
+    font-weight: bold;
+    text-decoration: none;
+}
+
+.prayer-btn:hover {
+    background-color: #ffda4d;
+}
+
+@keyframes slideIn {
+    from {
+        transform: translateX(30%);
+        opacity: 0;
+    }
+    to {
+        transform: translateX(0);
+        opacity: 1;
+    }
+}
