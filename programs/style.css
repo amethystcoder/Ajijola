@@ -1,3 +1,6 @@
+body {
+    overflow-x: clip;
+}
 header {
     display: flex;
     background-color: #efbf04;
