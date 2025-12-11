@@ -1,49 +1,65 @@
 const programList = [
   {
-    title: "Sunday Worship Service",
+    title: "Lord’s Day Devotional Service",
     description:
-      "Join us every Sunday for a deeply spiritual and uplifting worship experience. Our Sunday service is a time of joyful praise, heartfelt worship, and the teaching of God’s Word. Through hymns, inspired messages, and prophetic guidance, we gather as one family to renew our strength, receive divine blessings, and grow in our walk with Christ. Come and encounter the presence of God in a powerful and refreshing way.",
+      "Every Sunday at 10:00am, we gather for the Lord’s Day Devotional Service—a sacred time of worship, thanksgiving, hymns, and the Word. This service strengthens our spiritual walk and renews our commitment to Christ. Through praise, prayer, prophecy, and devotion, the flock fellowships in unity, seeking divine blessings and spiritual upliftment for the week ahead.",
     themeColor: "#4a91e2ff",
     imageUrl: "../assets/sunday-service.jpg",
     forgroundColor: "#FFFFFF",
     othercolor: "#D0E6FF",
-    time: "11:00 AM - 12:00 PM",
+    time: "10:00 AM",
     bringAlong: "Family and Friends"
   },
+  
   {
-    title: "Wednesday Service for the Needy",
+    title: "Service For The Seekers",
     description:
-      "A special midweek service dedicated to mercy, compassion, and intercession. On Wednesdays, we lift up prayers for the needy, the oppressed, the sick, and all who require God’s divine intervention. This service focuses on heartfelt supplication, songs of healing, and spiritual support for those facing challenges. It is a time to stand in the gap for others and experience God’s love through acts of giving, prayer, and fellowship.",
+      "Held every Wednesday at 9:00am, this devotional service is specially designed for barren women and all who seek God’s divine favor. Each participant brings one candle, a bottle of water, and three different fruits. After prayers, worship, and sanctification, participants are laid before the Lord and covered with altar cloth. Upon rising, they eat one fruit and drink their sanctified water—symbolic acts of faith and blessing.",
     themeColor: "#50e3c3ff",
-    imageUrl: "../assets/wednesday-service.jpg",
+    imageUrl: "../assets/seekers-service.jpg",
     forgroundColor: "#FFFFFF",
-    othercolor: "#D0E6FF",
-    time: "6:00 PM - 7:00 PM",
-    bringAlong: "Items for Donation"
+    othercolor: "#D0FFF5",
+    time: "9:00 AM",
+    bringAlong: "One Candle, One Bottle of Water, Three Different Fruits"
   },
+
   {
-    title: "Friday Power Service",
+    title: "Mercy Day Devotional Service",
     description:
-      "End your week with an encounter of divine power and spiritual renewal. The Friday Power Service is a night of intense prayer, breakthrough worship, deliverance, and prophetic ministration. Come expecting God’s move in every area of your life as we cry unto Him for strength, victory, protection, and restoration. It is a powerful gathering designed to uplift the spirit, break yokes, and prepare you for the days ahead.",
-    themeColor: "#f5a523ff",
-    imageUrl: "../assets/friday-service.jpg",
+      "Every Wednesday at 6:00pm, we gather for the Mercy Day Devotional Service—a time dedicated to seeking God’s mercy, compassion, and intervention. Worshippers lift their burdens before the Lord as we intercede for forgiveness, healing, restoration, and divine assistance. It is a peaceful yet powerful service for all seeking God’s grace.",
+    themeColor: "#34c759",
+    imageUrl: "../assets/mercy-service.jpg",
     forgroundColor: "#FFFFFF",
-    othercolor: "#D0E6FF",
-    time: "7:00 PM - 8:30 PM",
-    bringAlong: "Open Heart and Mind"
+    othercolor: "#D6FFE5",
+    time: "6:00 PM",
+    bringAlong: "Heart of Repentance and Thanksgiving"
   },
+
   {
     title: "New Moon Service",
     description:
-      "Celebrate the beginning of a new month with thanksgiving, worship, and prophetic declarations. The New Moon Service is a sacred Celestial tradition where we present the new month before God, seeking His guidance, favor, and protection. Through hymns, symbolic prayers, and spiritual consecration, we commit our journeys to the Lord and welcome His light into every new season. Join us as we honor God and step into the new month with blessing and purpose.",
+      "Observed every first Thursday of each month at exactly 12:00 midnight, the New Moon Service is one of the most sacred Celestial observances. Worshippers together commit the entire month into God’s hands. The service includes kneeling with the forehead to the ground (Nehemiah 8:6), incense burning, reverent worship, and lifting of holy hands. The congregation proclaims in unison: “Holy, Holy, Holy is the Lord God of Hosts” (Isaiah 6:3). This service ushers in blessing, direction, and divine preservation for the new month.",
     themeColor: "#9013feff",
     imageUrl: "../assets/new-moon-service.jpg",
     forgroundColor: "#FFFFFF",
-    othercolor: "#D0E6FF",
-    time: "6:00 PM - 7:30 PM",
-    bringAlong: "Family and Friends"
+    othercolor: "#EED6FF",
+    time: "12:00 Midnight (First Thursday of Every Month)",
+    bringAlong: "Reverent Heart and Spirit of Worship"
+  },
+
+  {
+    title: "Power Day Devotional Service",
+    description:
+      "Every Friday at 6:00pm, the Power Day Service brings the flock together for intense prayers, deliverance, spiritual empowerment, and breakthrough worship. It is a time to seek God’s strength, confront spiritual challenges, and receive divine upliftment. This service sets the tone for spiritual victory and prepares worshippers for the days ahead.",
+    themeColor: "#f5a523ff",
+    imageUrl: "../assets/friday-power.jpg",
+    forgroundColor: "#FFFFFF",
+    othercolor: "#FFE7C7",
+    time: "6:00 PM",
+    bringAlong: "Open Heart and Prayerful Spirit"
   }
 ];
+
 
 let currentIndex = 0;
 
