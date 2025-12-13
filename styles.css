@@ -101,6 +101,18 @@ header {
 .program-item-cont{
     box-sizing: border-box;
 }
+.program-linker{
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+    width: 50%;
+    max-width: 100%;
+}
+.program-linker:hover{
+    cursor: pointer;
+    width: 60%;
+}
+
 /* .program-img:hover{
     animation: widen 0.2s ease-in forwards;
 } */
@@ -277,6 +289,9 @@ header {
     }
     .attribution-text{
         font-size: 12vw;
+    }
+    .program-linker{
+        width: 100%;
     }
 }
 
