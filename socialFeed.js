@@ -12,6 +12,7 @@ window.addEventListener("DOMContentLoaded",async ()=>{
             SocialFeed.innerHTML = "No posts yet";
         } else {
             socialDataList.embeds.forEach(post => {
+                if (post.type == "Instagram") {
                 post.contents.forEach(content => {
                     const postElement = document.createElement("div");
                     postElement.classList.add("post");
@@ -106,6 +107,29 @@ window.addEventListener("DOMContentLoaded",async ()=>{
                     </blockquote>`;
                     SocialFeed.appendChild(postElement);
                 });
+                }
+
+                if (post.type == "Tiktok") {
+                    post.contents.forEach(content => {
+                        const postElement = document.createElement("div");
+                        postElement.classList.add("post");
+                        postElement.innerHTML = `<blockquote class="tiktok-embed" cite="${content}"
+                        data-video-id="${content.split('/').pop()}" style="max-width: 605px;min-width: 325px;">
+                        <section> <a target="_blank" title="@cccajijolajesu"
+                                href="https://www.tiktok.com/@cccajijolajesu?refer=embed">@cccajijolajesu</a> The kingdom of God <a
+                                title="celestialchurchofchrist🌈" target="_blank"
+                                href="https://www.tiktok.com/tag/celestialchurchofchrist%F0%9F%8C%88?refer=embed">#celestialchurchofchrist🌈</a>
+                            <a title="ccc" target="_blank" href="https://www.tiktok.com/tag/ccc?refer=embed">#ccc</a> <a title="ajijolajesu"
+                                target="_blank" href="https://www.tiktok.com/tag/ajijolajesu?refer=embed">#ajijolajesu</a> <a title="parish"
+                                target="_blank" href="https://www.tiktok.com/tag/parish?refer=embed">#parish</a> <a title="dublin"
+                                target="_blank" href="https://www.tiktok.com/tag/dublin?refer=embed">#dublin</a> <a target="_blank"
+                                title="♬ original sound - CCC Ajijola- jesu"
+                                href="https://www.tiktok.com/music/original-sound-${content.split('/').pop()}?refer=embed">♬ original sound - CCC
+                                Ajijola- jesu</a> </section>
+                    </blockquote>`;
+                        SocialFeed.appendChild(postElement);
+                    });
+                }
             });
             SocialFeed.style.height = "max-content";
             SocialFeed.style.gap = "20px";
