@@ -8,7 +8,7 @@ const programList = [
     forgroundColor: "#FFFFFF",
     othercolor: "#D0E6FF",
     time: "10:00 AM",
-    bringAlong: "Family and Friends"
+    bringAlong: "Faith, Heart of Worship, and Thanksgiving"
   },
   
   {

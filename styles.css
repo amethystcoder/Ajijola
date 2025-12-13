@@ -43,6 +43,7 @@ header {
 }
 .attribution-clip{
     font-size: 20vw;
+    margin-top: 0;
 }
 .main-attribution-cont{
     display: flex;
@@ -60,7 +61,7 @@ header {
     align-items:first baseline;
 }
 .attribution-text{
-    font-size: 12vw;
+    font-size: 8vw;
     font-weight: 500;
     margin: 0;
 }
@@ -95,6 +96,7 @@ header {
     background-repeat: no-repeat;
     background-size: cover;
     border: solid white 2px;
+    padding: 5px;
 }
 .program-item-cont{
     box-sizing: border-box;
@@ -140,6 +142,62 @@ header {
 
 .prayer-btn:hover {
     background-color: #ffda4d;
+}
+
+/* Gallery and Masonry */
+.masonry-container {
+  background: #ffffff;
+  box-sizing: border-box;
+  display: flex;
+  flex-flow: column wrap;
+  height: 80vh;
+  margin-bottom: 5vh;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.masonry-item {
+  align-items: center;
+  background: blue;;
+  background-size: cover;
+  background-position: center;
+  border: 5px solid white;
+  border-radius: 10px;
+  box-sizing: border-box;
+  color: white;
+  display: flex;
+  flex-grow: 0;
+  font-family: sans-serif;
+  font-size: 30px;
+  font-weight: bold;
+  height: 50%;
+  justify-content: center;
+  outline: 5px solid white;
+  text-shadow: 0 0 5px black;
+  
+  &:nth-child(6n - 5) {
+    height: 25%;
+  }
+  
+  &:nth-child(6n-4) {
+    height: 75%;
+  }
+  
+  &:nth-child(6n-3) {
+    height: 50%;
+  }
+  
+  &:nth-child(6n-2) {
+    height: 50%;
+  }
+  
+  &:nth-child(6n-1) {
+    height: 66.666%;
+  }
+  
+  &:nth-child(6n) {
+    height: 33.333%;
+  }
 }
 
 
@@ -213,6 +271,12 @@ header {
         background-image: url(./assets/crossimg.png);
         background-repeat: no-repeat;
         background-position: bottom 0% right 100%;
+    }
+    #header-heading{
+        font-size: 2rem;
+    }
+    .attribution-text{
+        font-size: 12vw;
     }
 }
 
